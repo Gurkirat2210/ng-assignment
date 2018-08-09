@@ -1,0 +1,15 @@
+ul{ margin: 0px; border-bottom: solid 2px gray; font-size: 20px; height: 50px; line-height: 50px; padding: 0px; width: 100%; float: left;list-style: none;}
+ul li{margin: 0px; list-style: none; padding: 0px;}
+ul li.left{float: left;}  
+ul li.right{float: right;}  
+ul li.right a{color: red; cursor: pointer;}
+ul li.right a:hover{color: black; cursor: pointer;}
+h1{ margin: 0px; padding: 0px; text-align: center; width: 100%; padding-top: 30px;}
+
+.product-outer{ height: 500px; margin: auto; width: 1300px}
+
+.product-outer h2{ font-size: 30px; text-align: left; font-weight: 100; clear: both; margin: 0px; padding: 0px 0 0 20px;  width: 100%; padding-top: 30px;}
+
+
+.product-outer ul{ margin: 0px; padding: 0px; width: 100%; float: left; border: none; clear: both;}
+.product-outer ul li{ cursor: pointer;margin: 20px;height: 200px; width: 200px; float: left;display: inline-block; border: solid 2px gray}

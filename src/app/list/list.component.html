@@ -1,0 +1,31 @@
+<div class="wapper">
+
+		<ul>
+				<li class="left">
+		
+					PaxShop
+				</li>
+		
+				<li class="right">
+		
+					<a routerLink="/add"> Add new product</a>
+				</li>
+		
+			</ul>
+		
+
+
+	<h1>heading text here </h1>
+
+
+	<div *ngFor="let sku of skus" class="product-outer">
+		<h2>{{sku}}</h2>
+		<ul>
+			<li *ngFor="let prod of prods[sku]">
+				<div routerLink="/detail/{{prod.entity_id}}">{{prod.name}}</div>
+			</li>
+		</ul>
+
+	</div>
+
+</div>
